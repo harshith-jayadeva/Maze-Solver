@@ -1,18 +1,3 @@
-/*CSCI 200: Assignment 6: A6 - Maze Finder
- *
- * Author: XXXX (Harshith Jayadeva)
- * Resources used (Office Hours, Tutoring, Other Students, etc & in what capacity):
- *     // list here any outside assistance you used/received while following the
- *     // CS@Mines Collaboration Policy and the Mines Academic Code of Honor
- * 
- *     Recieved help from professor Scholten in animating the squares. I had to use an if statement instead of a while loop
- * 
- * Description -> Used BFS and DFS to find a path to the end of the maze. To backtrack in DFS, I used a stack to add previously visited rectangles, 
- * If I reach a dead end, then the program backtracks until a rectangle with a path forwards is found. 
- * 
- * I used a queue for BFS and added all the neighbors of the current rectangle to the queue. Repeated this process of add all neighbors to the queue
- * and checking them until I reached the end or determined there was no path found. 
- * */
 #include <fstream>
 #include <iostream>
 #include <stack>
